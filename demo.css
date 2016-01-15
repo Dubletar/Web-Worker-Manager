@@ -1,0 +1,30 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+.container { 
+    float:left;
+    width: 100%;
+    min-height: 300px;
+}
+.main-column { 
+    width:300px;
+    float: left;
+    margin-right: 10px;
+}
+.display-column {
+    width: -moz-calc(100% - 311px);
+    width: -webkit-calc(100% - 311px);
+    width: calc(100% - 311px);
+    float: left;
+    padding-top:25px;
+}
+.form-container{
+    padding: 20px;
+}
+.response {
+    background: #000;
+    color: red;
+    min-height: 200px;
+}
+
